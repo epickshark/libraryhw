@@ -22,8 +22,8 @@
 
 ```
 spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
-spring.datasource.url=jdbc:sqlserver://localhost;databaseName=test
-spring.datasource.username=test
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=library
+spring.datasource.username=tast
 spring.datasource.password=test
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql = true
