@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jQuery.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
+    <meta charset="UTF-8">
+    <title>Библиотека</title>
+</head>
+<body style="background-color: #ffffff">
+<div class="offset-lg-1 col-lg-10">
+    <h3 align="center" style="color: #2f1919">Библиотека</h3>
+    <div class="row">
+        <div class="col-lg-6" style="background-color: White">
+            <div class="row">
+                <label class="col-sm-4">Жанр: </label>
+                <select class="col-sm-4" id="librarySelect"></select>
+                <button class="col-sm-4" id="libraryDelete">Удалить</button>
+            </div>
+            <p align="center"><b>Список книг</b></p>
+            <table>
+                <thead>
+                    <th style="width: 33.33%">Название</th>
+                    <th style="width: 33.33%">Автор</th>
+                    <th style="width: 8.33%"></th>
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-6">
+            <p align="center"> <b>Добавить жанр</b></p>
+            <div class="row">
+                <label class="col-sm-4">Название жанра:</label>
+                <input class="col-sm-4" id="newLibraryGenre" type="text">
+                <button class="col-sm-4" id="newLibraryButton">Добавить</button>
+            </div>
+            <p align="center"><b>Изменить текущий жанр</b></p>
+            <div class="row">
+                <label class="col-sm-4">Название жанра:</label>
+                <input class="col-sm-4" id="currentLibraryGenre" type="text">
+                <button class="col-sm-4" id="currentLibraryButton">Изменить</button>
+            </div>
+            <p align="center"><b>Добавить книгу в текущий жанр</b></p>
+            <div>
+                <div class="row">
+                    <label class="col-sm-4">Название:</label>
+                    <input class="col-sm-8" id="newBookName" type="text">
+                </div>
+                <div class="row">
+                    <label class="col-sm-4">Автор:</label>
+                    <input class="col-sm-8" id="newBookAuthor" type="text">
+                    <button class="col-sm-12" id="newBookButton">Добавить</button>
+                </div>
+
+            </div>
+            <p align="center"><b>Отредактировать выбраную книгу</b></p>
+            <div>
+                <div class="row">
+                    <label class="col-sm-4">Название:</label>
+                    <input class="col-sm-8" id="currentBookName" type="text">
+                </div>
+                <div class="row">
+                    <label class="col-sm-4">Автор:</label>
+                    <input class="col-sm-8" id="currentBookAuthor" type="text">
+                    <button class="col-sm-12" id="currentBookButton">Сохранить</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
